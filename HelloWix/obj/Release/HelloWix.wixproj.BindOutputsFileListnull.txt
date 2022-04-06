@@ -1,0 +1,2 @@
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\bin\Release\HelloWix.msi
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\bin\Release\HelloWix.wixpdb

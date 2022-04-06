@@ -1,0 +1,10 @@
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\bin\Release\UpdateConfiguration.dll
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\bin\Release\UpdateConfiguration.CA.dll
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\bin\Release\UpdateConfiguration.pdb
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\bin\Release\Microsoft.Deployment.WindowsInstaller.dll
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\bin\Release\Microsoft.Deployment.WindowsInstaller.xml
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\obj\x86\Release\UpdateConfiguration.csproj.AssemblyReference.cache
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\obj\x86\Release\UpdateConfiguration.csproj.CoreCompileInputs.cache
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\obj\x86\Release\UpdateConfiguration.csproj.CopyComplete
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\obj\x86\Release\UpdateConfiguration.dll
+C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\obj\x86\Release\UpdateConfiguration.pdb

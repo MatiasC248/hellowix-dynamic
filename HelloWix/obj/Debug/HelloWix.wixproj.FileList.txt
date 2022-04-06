@@ -1,0 +1,7 @@
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\bin\Debug\HelloWix.msi
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\bin\Debug\HelloWix.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\Components.wixobj
+obj\Debug\HelloWix.wixproj.BindContentsFileListnull.txt
+obj\Debug\HelloWix.wixproj.BindOutputsFileListnull.txt
+obj\Debug\HelloWix.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,8 @@
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\doc.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\mainApp.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\readme.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\foo.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\moduleA.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\moduleB.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\config.txt
+C:\Users\mcastorina\source\repos\HelloWix\HelloWix\redist\moduleC.txt

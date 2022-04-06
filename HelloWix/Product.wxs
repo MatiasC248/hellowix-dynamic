@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="HelloWix" Language="1033" Version="1.0.0" Manufacturer="MSoft" UpgradeCode="20345e95-61a6-4990-b23e-005ae048681f">
+		<Package Description="Simple Demo" Compressed="yes" InstallScope="perMachine" />
+		<MediaTemplate EmbedCab="yes" />
+		
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="HelloWix">
+					<Directory Id="docs" Name="docs" />
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<Feature Id="ProductFeature" Title="HelloWix" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+			<!--
+			<ComponentGroupRef Id="DocComponents" />
+			-->
+		</Feature>
+
+		<Binary Id="UpdateConfiguration" SourceFile="C:\Users\mcastorina\source\repos\HelloWix\UpdateConfiguration\bin\Debug\UpdateConfiguration.CA.dll" />
+	
+		<CustomAction Id="UpdateConfiguration" BinaryKey="UpdateConfiguration" DllEntry="UpdateConfig" Execute="immediate" Return="check" />
+
+		<!-- Sequences -->
+		<InstallExecuteSequence>
+			<Custom Action="UpdateConfiguration" Before="InstallFiles" />
+			
+			<!--
+			Set InstallLocation in registry (commented) 
+			<Custom Action="SaveInstallLocation" After="CostFinalize" />
+			<Custom Action="InstallService" Before="InstallFinalize">
+				<![CDATA[NOT Installed]]>
+			</Custom>
+			<Custom Action="StopService" After="InstallInitialize">
+				<![CDATA[Installed]]>
+			</Custom>
+			<Custom Action="UninstallService" After="StopService">
+				<![CDATA[Installed]]>
+			</Custom>
+			-->
+		</InstallExecuteSequence>
+		
+	</Product>
+	
+</Wix>

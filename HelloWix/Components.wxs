@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER">
+            <Component Id="cmp8FFE6B670AEA48D7837B2EA879F1F757" Guid="{B5F9C6BB-BA84-44A3-9938-2768A711E99F}">
+                <File Id="fil65325CBF4F657842D8F3AD3673E40B10" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\config.txt" />
+            </Component>
+            <Component Id="cmpB951C0DD5124B812CA3B9AB72116DC09" Guid="{417B4A78-B9BE-4A9C-979F-9EF4BEEFB8B9}">
+                <File Id="fil10AF7776C611A644D31D0B7802F002E2" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\config2.txt" />
+            </Component>
+            <Component Id="cmp12BECC2FD6B2F1AFCD406E84B0FF43AA" Guid="{7172CB8C-C9DB-496B-9198-757D63BC0449}">
+                <File Id="fil1082D8038280326AE815C2EA74DDC642" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\doc.txt" />
+            </Component>
+            <Component Id="cmpFCEA1332D572FD1971C8CF5D9D98C59D" Guid="{0701F08B-B5D9-46E8-8CDA-CC5EBC7631B6}">
+                <File Id="fil47095CA42B751C04351424E4DE4B1E7E" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\foo.txt" />
+            </Component>
+            <Component Id="cmp91830F9B924C3B24124DA93FB4EE61F8" Guid="{306F08B5-D698-4299-9119-D194BEDDA83D}">
+                <File Id="fil1AC4C410989A56913BBD0C51C1A45B7D" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\mainApp.txt" />
+            </Component>
+            <Component Id="cmp4BC2A5A7E7110F323C0405DCC58EFDBE" Guid="{25CF45E9-3F30-411D-8804-D35C25175384}">
+                <File Id="fil539271768C8200B36DF2A50054566DD7" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\moduleA.txt" />
+            </Component>
+            <Component Id="cmpB98E1C550B192CE30E746E4CFBFF1962" Guid="{B6D99872-D932-4AD3-919F-1DFE9BF2E4F0}">
+                <File Id="fil5A9A15395C31214E4A948ED195A479E0" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\moduleB.txt" />
+            </Component>
+            <Component Id="cmpEAC90039756E89F8C48667E9245EB255" Guid="{D5431C46-C7E0-4A0A-B4B2-61EA229DE382}">
+                <File Id="filB2CA77AF0448BCD084A35DE714BDD1EA" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\moduleC.txt" />
+            </Component>
+            <Component Id="cmp9AFB25E7BBCDC686EF1AF44EAB5C1BC1" Guid="{E698FBCC-95AD-4BEE-9AAB-4B6CD8860393}">
+                <File Id="fil3A39D05964DB9DF87C0FEF43332F6F60" KeyPath="yes" Source="$(var.AL_HOST_FOLDER)\readme.txt" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ProductComponents">
+            <ComponentRef Id="cmp8FFE6B670AEA48D7837B2EA879F1F757" />
+            <ComponentRef Id="cmpB951C0DD5124B812CA3B9AB72116DC09" />
+            <ComponentRef Id="cmp12BECC2FD6B2F1AFCD406E84B0FF43AA" />
+            <ComponentRef Id="cmpFCEA1332D572FD1971C8CF5D9D98C59D" />
+            <ComponentRef Id="cmp91830F9B924C3B24124DA93FB4EE61F8" />
+            <ComponentRef Id="cmp4BC2A5A7E7110F323C0405DCC58EFDBE" />
+            <ComponentRef Id="cmpB98E1C550B192CE30E746E4CFBFF1962" />
+            <ComponentRef Id="cmpEAC90039756E89F8C48667E9245EB255" />
+            <ComponentRef Id="cmp9AFB25E7BBCDC686EF1AF44EAB5C1BC1" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>
