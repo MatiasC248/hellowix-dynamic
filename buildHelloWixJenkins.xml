@@ -1,6 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE project>
 <project basedir="." name="build">
+    <exec executable="/bin/sh">
+        <arg value="echo TESTING BASH WORKS" />
+    </exec>
+    <!--
     <echo>Hello from Ant file</echo>
     <exec dir="C:\Users\mcastorina\source\repos\HelloWix" executable="C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" failonerror="true">
 		<arg value="HelloWix.sln" />
@@ -10,4 +14,5 @@
 		<arg value="/t:Build" />
 		<arg value='/p:DefineConstants="AL_HOST_FOLDER=\var\lib\jenkins\workspace\wix-pipeline\HelloWix\redist;"' />
 	</exec>
+     -->
 </project>
