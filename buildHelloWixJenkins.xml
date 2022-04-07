@@ -2,6 +2,7 @@
 <!DOCTYPE project>
 <project basedir="." name="build">
     <exec executable="/bin/sh">
+		<arg value="-c" />
         <arg value="echo TESTING BASH WORKS" />
     </exec>
     <!--
